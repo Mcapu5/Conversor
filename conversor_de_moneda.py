@@ -1,13 +1,13 @@
-usuario = input("Introduce tu nombre de usuario: ")
-def convert(tipo_moneda, valor_moneda):
-    dinero = int(input("¿Cuanto dinero desea convertir?: "))
-    moneda = dinero / valor_moneda
-    moneda = round(moneda, 2)
-    moneda = str(moneda) 
-    print(usuario + ", tienes $" + moneda, tipo_moneda)
+user = input("Introduce tu nombre de usuario: ")
+def convert(money_type, money_value):
+    money = int(input("¿Cuanto dinero desea convertir?: "))
+    coin = money / money_value
+    coin = round(coin, 2)
+    coin = str(coin) 
+    print(user + ", tienes $" + coin, money_type)
 
 menu = """
-Bienvenido al conversor de monedas """ + usuario + """
+Bienvenido al conversor de monedas """ + user + """
 
 1 - Dolar
 2 - Euro
